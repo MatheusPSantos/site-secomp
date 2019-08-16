@@ -5,15 +5,17 @@
 
 .background-page {
     position: absolute;
-    background-image: linear-gradient(140deg, rgb(85, 6, 155), rgb(155, 10, 147), rgb(104, 5, 224));
     width: 100%;
     height: 100%;
+    background-image: linear-gradient(140deg, rgb(85, 6, 155), rgb(155, 10, 147), rgb(104, 5, 224));
 }
 
 .header-page {
+    height: 500px;
+    width: 100%;
     color: #fff;
     text-align: center;
-    padding: 8rem 0 7rem;
+    padding: 20% 0 0 0;
 }
 
 .typewriter {
@@ -34,3 +36,34 @@
     from, to { border-color: transparent }
     50% { border-color: orange; }
   }
+
+.introduction {
+    position: relative;
+    height: 400px;
+    text-align: left;
+}
+
+.introduction-image {
+    height: 100%;
+}
+
+.schedule {
+    height: 500px;
+    width: 100%;
+}
+
+.talks {
+    height: 500px;
+    width: 100%;
+}
+
+.courses {
+    height: 500px;
+    width: 100%;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(31, 31, 31);
+}
