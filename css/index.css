@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background-page {
+    position: absolute;
+    background-image: linear-gradient(140deg, rgb(85, 6, 155), rgb(155, 10, 147), rgb(104, 5, 224));
+    width: 100%;
+    height: 100%;
+}
+
+.header-page {
+    color: #fff;
+    text-align: center;
+    padding: 8rem 0 7rem;
+}
+
+.typewriter {
+    overflow: hidden; 
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em;
+    animation: typing 3.0s steps(40, end), blink-caret .75s step-end infinite;
+}
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
