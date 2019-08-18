@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .timeline::after {
+    content: '';
+    height: 100%;
+    margin-top: 150px;
+    position: absolute;
+    width: 6px;
+    background-image: linear-gradient(rgb(85, 6, 155), rgb(155, 10, 147));
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+
+  }
+  
+  .container-timeline {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+  
+  .container-timeline::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid rgb(255, 121, 19);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    left: 50%;
+  }
+  
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  .right::after {
+    left: -16px;
+  }
+  
+  .content {
+    padding: 20px 30px;
+    background-image: linear-gradient(-120deg, rgba(182, 7, 158, 0.591), rgb(19, 145, 255));;
+    position: relative;
+    border-radius: 6px;
+    color: white;
+  }
+  
+  @media screen and (max-width: 600px) {
+
+    .timeline::after {
+    left: 31px;
+    }
+    
+
+    .container-timeline {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+    }
+    
+
+    .container-timeline::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+    }
+  
+
+    .left::after, .right::after {
+    left: 15px;
+    }
+    
+
+    .right {
+    left: 0%;
+    }
+  }
