@@ -14,48 +14,58 @@
 
 .header-page img {
     position: relative;
-    width:40%;
+    width: 40%;
     height: auto;
     margin-top: 10%;
     padding: 0 0 50px 0;
 }
 
 .typewriter {
-    overflow: hidden; 
+    overflow: hidden;
     border-right: .15em solid rgb(13, 228, 13);
     white-space: nowrap;
-    margin: 0 auto; 
+    margin: 0 auto;
     letter-spacing: .15em;
     animation: typing 3.0s steps(40, end), blink-caret .75s step-end forwards;
     align-content: center;
     text-align: center;
-    color:  rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color:  rgb(13, 228, 13); }
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: rgb(13, 228, 13);
+    }
 }
 
 .introduction {
     position: relative;
     height: 650px;
     text-align: left;
-    width: 100%;    
+    width: 100%;
     padding-top: 5%;
     background: url('../img/intro-image.svg'), radial-gradient(circle, rgb(1, 18, 163), rgb(1, 4, 53));
     background-repeat: no-repeat, no-repeat;
-    background-size: 50%, cover;
+    background-size: 60%, cover;
     background-position: top right;
     opacity: 0.8;
 }
 
-.introduction h3 {
+.introduction h3,
+h4 {
     color: white
 }
 
@@ -77,18 +87,35 @@
     padding-top: 50px;
     height: auto;
     width: 100%;
-    background-image: url('https://techcrunch.com/wp-content/uploads/2019/03/final-gif.gif?w=730&crop=1');
+    background-image: url('../img/schedule-gif.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.schedule .timeline h3, h4 {
+.schedule .timeline h3,
+h5 {
     color: white;
 }
 
 .talks {
-    height: 500px;
+    height: auto;
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+
+.speaker {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.513);
+    height: 300px;
+}
+
+.speaker:hover {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.speaker button {
+    color: white;
     width: 100%;
 }
 
@@ -110,7 +137,6 @@
         height: auto;
         margin-top: 20%
     }
-        
     .introduction {
         position: relative;
         height: 500px;
