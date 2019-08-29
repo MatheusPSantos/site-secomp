@@ -51,7 +51,7 @@
     background: url('../img/intro-image.svg'), radial-gradient(circle, rgb(1, 18, 163), rgb(1, 4, 53));
     background-repeat: no-repeat, no-repeat;
     background-size: 50%, cover;
-    background-position: bottom right;
+    background-position: top right;
     opacity: 0.8;
 }
 
