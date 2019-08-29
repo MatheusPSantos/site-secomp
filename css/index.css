@@ -29,7 +29,7 @@
     animation: typing 3.0s steps(40, end), blink-caret .75s step-end forwards;
     align-content: center;
     text-align: center;
-    color:  rgb(13, 228, 13);
+    color:  rgb(255, 255, 255);
 }
 
 @keyframes typing {
@@ -47,13 +47,44 @@
     height: 650px;
     text-align: left;
     width: 100%;    
-    padding-top: 5%;    
+    padding-top: 5%;
+    background: url('../img/intro-image.svg'), radial-gradient(circle, rgb(1, 18, 163), rgb(1, 4, 53));
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50%, cover;
+    background-position: bottom right;
+    opacity: 0.8;
+}
+
+.introduction h3 {
+    color: white
+}
+
+.introduction .text {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.513);
+    padding: 10px;
+    margin: 0;
+    color: white;
+    position: relative;
+    margin: auto auto;
+}
+
+.introduction-image {
+    height: 100%;
 }
 
 .schedule {
-    margin-top: 50px;
+    padding-top: 50px;
     height: auto;
     width: 100%;
+    background-image: url('https://techcrunch.com/wp-content/uploads/2019/03/final-gif.gif?w=730&crop=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.schedule .timeline h3, h4 {
+    color: white;
 }
 
 .talks {
