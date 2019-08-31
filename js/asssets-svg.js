@@ -57,7 +57,7 @@ const LOGO = `
   <defs
      id="defs6">
     <style
-       id="style4">.cls-1{font-size:155.55px;fill:#ff0;font-family:Roboto-Black, eurofurence;letter-spacing:0.05em;}.cls-2{font-size:40px;font-family:Roboto-Thin, Roboto;font-weight:200;}.cls-2,.cls-4,.cls-6{fill:#fff;}.cls-3{letter-spacing:-0.01em;}.cls-4{font-size:50px;font-family:Roboto-Black, Roboto;font-weight:800;}.cls-5{fill:gray;}</style>
+       id="style4">.cls-1{font-size:155.55px;fill:#ff0;font-family:Eurofurenceregular, eurofurence;letter-spacing:0.05em;}.cls-2{font-size:40px;font-family:Roboto-Thin, Roboto;font-weight:200;}.cls-2,.cls-4,.cls-6{fill:#fff;}.cls-3{letter-spacing:-0.01em;}.cls-4{font-size:50px;font-family:Roboto-Black, Roboto;font-weight:800;}.cls-5{fill:gray;}</style>
   </defs>
   <title
      id="title8">secomp_logo_tst2</title>
@@ -68,7 +68,7 @@ const LOGO = `
      font-size="155.55px"
      letter-spacing=".05em"
      id="text10"
-     style="font-size:91.93262482px;font-family:Roboto-Black, eurofurence;letter-spacing:0.05em;fill:#ffff00;stroke-width:0.59101653">SECOMP</text>
+     style="font-size:91.93262482px;font-family:Eurofurenceregular, eurofurence;letter-spacing:0.05em;fill:#ffff00;stroke-width:0.59101653">SECOMP</text>
   <text
      class="cls-4"
      x="190.52116"
