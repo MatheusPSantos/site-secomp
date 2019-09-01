@@ -15,7 +15,7 @@
 
 .header-page {
     position: relative;
-    background-image: linear-gradient(145deg, rgba(0, 0, 0, 0.733), rgba(185, 9, 197, 0.739), rgba(255, 123, 0, 0.753)), url('../img/header-bg.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.733), rgba(9, 91, 197, 0.739)), url('../img/header-bg.jpg');
     background-size: cover, cover;
     background-position: top, top;
     height: 660px;
@@ -93,6 +93,8 @@
     text-align: center;
     color: rgb(208, 255, 0);
     font-size: 15pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 @keyframes typing {
@@ -116,15 +118,15 @@
 
 .introduction {
     position: relative;
-    height: 650px;
+    height: auto;
     text-align: left;
     width: 100%;
-    padding-top: 5%;
-    background: url('../img/intro-image.svg'), radial-gradient(circle, rgb(1, 18, 163), rgb(1, 4, 53));
+    padding: 100px 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url('../img/intro-image.svg'), url('../img/palestras-gif.gif');
     background-repeat: no-repeat, no-repeat;
     background-size: 60%, cover;
-    background-position: top right;
-    opacity: 0.8;
+    background-position: center right;
 }
 
 .introduction h3,
@@ -134,12 +136,13 @@ h4 {
 
 .introduction .text {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.513);
+    background: rgba(3, 158, 63, 0.685);
     padding: 10px;
     margin: 0;
     color: white;
     position: relative;
     margin: auto auto;
+    font-size: 13pt
 }
 
 .introduction-image {
@@ -154,10 +157,14 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.schedule .timeline h3,
-h5 {
+.schedule .timeline h3 {
+    color: white;
+}
+
+.schedule .timeline h5 {
     color: white;
 }
 
@@ -167,7 +174,8 @@ h5 {
 .talks {
     height: auto;
     width: 100%;
-    padding: 100px 0 0 0;
+    padding: 100px 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .talks h3,
@@ -175,102 +183,79 @@ h5 {
     color: black;
 }
 
-.talks-list {
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin: 1px 0;
-}
-
-.card {
-    width: 100%;
-    height: 400px;
-    margin: 0 1px;
-    transition: 0.4s all ease-in-out;
-    display: flex;
-    flex-direction: column;
-    text-decoration: none
-}
-
-.um {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.dois {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.tres {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.quatro {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.quinto {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.sexto {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.setimo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.oitavo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.nono {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.383), rgba(0, 128, 0, 0.486)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
-    background-size: cover, cover;
-    background-position: center, top;
-}
-
-.card h4 {
-    position: relative;
-    text-align: center;
-    top: 50%;
-}
-
-.card p {
-    position: relative;
-    text-align: center;
-    top: 50%;
-    color: white;
-    font-size: 15pt;
-}
-
-.card:hover {
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, .6)
-}
-
 
 /* cursos */
 
 .courses {
-    height: 500px;
+    height: auto;
     width: 100%;
+    padding: 100px 0;
+    background: rgb(31, 31, 31);
+    font-family: 'Courier New', Courier, monospace
+}
+
+.courses h3,
+.courses h5 {
+    color: rgb(13, 114, 245)
+}
+
+.course-list {
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.courses-list .course {
+    margin: 10px 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-content: flex-start;
+    flex-grow: 1;
+    border: 2px solid rgb(9, 255, 0);
+    border-radius: 5px;
+}
+
+.end {
+    flex-direction: row-reverse;
+}
+
+.courses-list .course .talker-course {
+    position: relative;
+    width: 300px;
+}
+
+.courses-list .course .course-description {
+    padding: 30px 50px;
+    text-align: justify;
+    text-justify: 10px;
+    font-size: 12pt;
+    color: rgb(9, 255, 0);
+}
+
+
+/* Sponsors */
+
+.sponsors {
+    height: auto;
+    width: 100%;
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.sponsors-list {
+    position: relative;
+    display: flex;
+    align-content: flex-start;
+}
+
+.sponsor {
+    width: 300px;
+    margin: 0;
+    height: auto;
 }
 
 
@@ -280,6 +265,9 @@ h5 {
     height: 200px;
     width: 100%;
     background-color: rgb(31, 31, 31);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 157);
+    padding: 100px 0 0 0;
 }
 
 @media (max-width: 400px) {

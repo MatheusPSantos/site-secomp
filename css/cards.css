@@ -1,0 +1,108 @@
+.talks-list {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 1px 0;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    margin: 0 1px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    transition: 3s all ease-in-out
+}
+
+.card a:link,
+.card a:visited,
+.card a:active {
+    text-decoration: none
+}
+
+.card h4 {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 15pt;
+    color: rgb(7, 0, 0)
+}
+
+.card p {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    color: rgb(40, 202, 12);
+    background: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.card:hover {
+    background-size: cover, 180%
+}
+
+.um {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.dois {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.tres {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.quatro {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.cinco {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.seis {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.sete {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.oito {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
+
+.nove {
+    background-image: linear-gradient(45deg, rgba(11, 223, 212, 0.5), rgba(11, 223, 212, 0.2)), url('https://i.pinimg.com/originals/96/c5/fd/96c5fdf3edaa75d6716a3d531cb5c808.jpg');
+    background-size: cover, cover;
+    background-position: center, top;
+    background-repeat: no-repeat
+}
