@@ -1,0 +1,17 @@
+@media (max-width: 980px) {
+    .header-page {
+        width: 100%;
+        margin: 0;
+    }
+    .header-page svg {
+        width: 200px;
+        height: auto;
+        margin: 0;
+    }
+    .header-logo {
+        margin: 0;
+    }
+    .typewriter {
+        font-size: 12pt;
+    }
+}
