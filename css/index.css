@@ -125,8 +125,8 @@
     font-family: 'Courier New', Courier, monospace;
     background: url('../img/intro-image.svg'), url('../img/palestras-gif.gif');
     background-repeat: no-repeat, no-repeat;
-    background-size: 60%, cover;
-    background-position: center right;
+    background-size: 40%, cover;
+    background-position: bottom right;
 }
 
 .introduction h3,
@@ -262,12 +262,22 @@ h5 {
 /* Footer */
 
 .footer {
-    height: 200px;
+    height: auto;
     width: 100%;
     background-color: rgb(31, 31, 31);
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(255, 0, 157);
-    padding: 100px 0 0 0;
+    color: rgb(229, 255, 0);
+    padding: 100px 0 100px 0;
+}
+
+.copyright {
+    position: relative;
+    padding: 10px;
+    margin: 0;
+    bottom: 0;
+    text-align: center;
+    background: rgb(49, 49, 49);
+    color: white;
 }
 
 @media (max-width: 400px) {
